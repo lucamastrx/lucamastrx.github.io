@@ -3,7 +3,8 @@ name: Deploy Jekyll site to Pages
 on:
   push:
     branches:
-      - main  # cambia se usi gh-pages o un'altra branch
+      - first-test
+      #- main  # cambia se usi gh-pages o un'altra branch
 
 permissions:
   contents: read
